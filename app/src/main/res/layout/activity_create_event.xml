@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#D3D3D3"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Event"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="50dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/upload_image_button"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/ios_button_background"
+                android:text="Add event photo"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/event_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Event Name"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/event_description"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Event Description"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/event_date"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Event Date"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/event_results"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Event Results"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/event_pin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Event PIN"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/save_event_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:text="Create Event" />
+    </LinearLayout>
+</ScrollView>

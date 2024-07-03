@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ios_primary">#007AFF</color> <!-- iOS blue -->
+    <color name="ios_background">#FFFFFF</color> <!-- iOS white -->
+    <color name="ios_text">#000000</color> <!-- iOS black -->
+    <color name="ios_button_background">#FFFFFF</color>
+    <color name="ios_button_text">#FFFFFF</color> <!-- iOS white -->
+    <color name="ios_button_ripple">#007AFF</color>
+
+
+</resources>

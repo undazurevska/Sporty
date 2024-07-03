@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/ios_primary</item>
+        <item name="colorPrimaryDark">@color/ios_primary</item>
+        <item name="colorAccent">@color/ios_primary</item>
+        <item name="android:windowBackground">@color/ios_background</item>
+        <item name="android:textColor">@color/ios_text</item>
+
+        <!-- Customize button style -->
+        <item name="buttonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="CustomButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/ios_button_background</item>
+        <item name="android:textColor">@color/ios_button_text</item>
+        <item name="cornerRadius">10dp</item> <!-- Rounded corners like iOS -->
+    </style>
+</resources>
